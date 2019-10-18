@@ -1,0 +1,124 @@
+main{
+    background-color: rgb(255,255,255);
+
+}
+
+#head_container{
+    width: 100%;
+    height: 250px;
+    border-top: 10px;
+    border-top-style: solid;
+    border-top-color: rgb(159,190,59);
+
+    border-bottom: 6px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(204,204,204);
+}
+
+#title_logo{
+    margin-left: 1%;
+    margin-top: 40px;
+}
+
+#logo1, #logotext{
+    display: inline-block;
+}
+
+#mernokdb{
+    
+    font-size: 38px;
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(0,96,164);
+}
+#weblapdomain{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    color: rgb(204,204,201);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#logo1{
+    height: 60px;
+    width: 60px;
+}
+
+#ESZA{
+    float:right;
+    margin-top: 0;
+    margin-right: 0;
+
+}
+
+#head_subtext{
+    margin-left: 1%;;
+}
+#par1, #par2, #par3{
+    display: inline-block;
+}
+
+#par1{
+    font-weight: bolder;
+    color: rgb(0,96,164);
+}
+
+#par3{
+    color: rgb(172,199,85);
+}
+
+#downarrow_1{
+    margin-left: 50%;
+    margin-right: 50%;
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-top: -40px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(255,255,255);
+}
+#udvozoljuk{
+    border-bottom: 6px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(204,204,204);
+}
+#loremipsum_1{
+    padding-bottom: 60px;
+}
+
+#udvh1, #keressenh1{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0,96,164);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+#searchicon_1{
+    margin-left: 50%;
+    margin-right: 50%;
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-top: -40px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(255,255,255);
+}
+
+.boxed{
+    width: 300px;
+    margin-left: calc(50% - 150px);
+    margin-right: calc(50% - 150px);  
+    padding: 10px;
+    co
+}
+
+#loremipsum_2, #checkbox1, #form1{
+    color: rgb(0,0,0);
+
+}
