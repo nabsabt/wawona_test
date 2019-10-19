@@ -115,10 +115,55 @@ main{
     margin-left: calc(50% - 150px);
     margin-right: calc(50% - 150px);  
     padding: 10px;
-    co
+    background-color: rgb(235,235,235);
 }
 
 #loremipsum_2, #checkbox1, #form1{
     color: rgb(0,0,0);
 
+}
+
+.boxed .textbox1, .boxed .textbox2 {
+    border-style: solid;
+    border-color: rgb(55,55,55);
+    background-color: rgb(215,215,215);
+    height: 35px;
+    float: right;
+    margin-right: 10px;
+}
+
+.boxed .textbox1{
+    width: 95%;
+    margin-bottom: 15px;
+}
+.boxed .textbox2{
+    width: 65%;
+    margin-bottom: 15px;
+}
+
+
+.boxed .cb1, .cb2, .cb3, .cb4{
+    width: 25px;
+    height: 25px;
+    filter: invert(57%) hue-rotate(18deg) brightness(1.7);
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: rgb(55,55,55);
+    vertical-align: middle;
+}
+
+.checkboxes{
+    margin-bottom: 20px;
+}
+
+#p1, #p2, #p3{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+#form1 .kereses_button{
+    
+    margin-right: 10px;
+    width: 95%;
 }
