@@ -43,15 +43,17 @@
         <h1 id="keressenh1">KERESSEN AZ ADATBÁZISBAN</h1>
         <div class="boxed">
             <p id=loremipsum_2>Lorem ipsum: </p>
-            <input type="text"><br>
+            <input type="text" class="textbox1"><br>
             <p id=checkbox1> Checkbox és szabadszavazás:</p>
             <form id="form1">
-                <input type="checkbox"  value="elso"> első választás<br>
-                <input type="checkbox"  value="masodik"> második választás<br>
-                <input type="checkbox"  value="satobbi"> satöbbi<br>
-                egyéb: <input type="text"> 
+                <div class="checkboxes">
+                     <input type="checkbox"  value="elso" class="cb1"> <p id="p1">első választás</p><br>
+                     <input type="checkbox"  value="masodik" class="cb2"> <p id="p2">második választás</p><br>
+                     <input type="checkbox"  value="satobbi" class="cb3"><p id="p3">satöbbi</p> <br>
+                </div>
+                <input type="checkbox"  value="satobbi" class="cb4">egyéb: <input type="text" class="textbox2"> 
                 <br>
-                <button type="submit">KERESÉS</button>
+                <button type="submit" class="kereses_button">KERESÉS</button>
             </form>
 
         </div>
