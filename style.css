@@ -1,14 +1,19 @@
+body{
+    margin: 0;
+}
+
 main{
     background-color: rgb(255,255,255);
-
+    border-top: 10px;
+    border-top-style: solid;
+    border-top-color: rgb(159,190,59);
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #head_container{
     width: 100%;
     height: 250px;
-    border-top: 10px;
-    border-top-style: solid;
-    border-top-color: rgb(159,190,59);
 
     border-bottom: 6px;
     border-bottom-style: solid;
@@ -20,7 +25,7 @@ main{
     margin-top: 40px;
 }
 
-#logo1, #logotext{
+#logo1, #logotext, #title_logo1, #wawonalogo2{
     display: inline-block;
 }
 
@@ -70,12 +75,13 @@ main{
 }
 
 #downarrow_1{
-    margin-left: 50%;
-    margin-right: 50%;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     width: 60px;
     height: 60px;
-    margin-top: -40px;
+    top: -40px;
+    position: relative;
     border-style: solid;
     border-width: 10px;
     border-color: rgb(255,255,255);
@@ -89,7 +95,7 @@ main{
     padding-bottom: 60px;
 }
 
-#udvh1, #keressenh1{
+#udvh1, #keressenh1, #eredmenyh1, #partnereinkh1{
     text-align: center;
     font-size: 35px;
     color: rgb(0,96,164);
@@ -99,12 +105,13 @@ main{
 
 
 #searchicon_1{
-    margin-left: 50%;
-    margin-right: 50%;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     width: 60px;
     height: 60px;
-    margin-top: -40px;
+    top: -40px;
+    position: relative;
     border-style: solid;
     border-width: 10px;
     border-color: rgb(255,255,255);
@@ -116,11 +123,17 @@ main{
     margin-right: calc(50% - 150px);  
     padding: 10px;
     background-color: rgb(235,235,235);
+    padding: 15px;
+    margin-bottom: 60px;
 }
 
 #loremipsum_2, #checkbox1, #form1{
     color: rgb(0,0,0);
 
+}
+
+#loremipsum_2, #checkbox1 {
+    font-weight: 800;
 }
 
 .boxed .textbox1, .boxed .textbox2 {
@@ -129,7 +142,7 @@ main{
     background-color: rgb(215,215,215);
     height: 35px;
     float: right;
-    margin-right: 10px;
+    
 }
 
 .boxed .textbox1{
@@ -164,6 +177,129 @@ main{
 
 #form1 .kereses_button{
     
-    margin-right: 10px;
-    width: 95%;
+    height: 35px;
+    width: 100%;
+    background-color: rgb(159,190,59);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+    border-style: none;
+}
+
+#kereses{
+
+    border-bottom: 6px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(204,204,204);
+}
+
+#infoicon_1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 60px;
+    height: 60px;
+    top: -40px;
+    position: relative;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(255,255,255);
+}
+
+.boxed_2 {
+    width: 300px;
+    margin-left: calc(50% - 150px);
+    margin-right: calc(50% - 150px);  
+    padding: 10px;
+    background-color: rgb(235,235,235);
+    padding: 15px;
+    margin-bottom: 60px;
+}
+
+.boxed_2 #mernokkft {
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(0,96,164);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+.boxed_2 #teaor_kodok, #felsorolas, #informacio {
+    font-weight: 800;
+    
+}
+
+.boxed_2 #list1, #list2 {
+    list-style-type: square;
+    
+}
+
+ul li::before{
+    color: green;
+}
+
+#kereses_eredmeny {
+
+        border-bottom: 6px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(204,204,204);
+}
+#infoicon_2{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 60px;
+    height: 60px;
+    top: -40px;
+    position: relative;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(255,255,255);
+}
+
+#partnerimgs {
+    display: block;
+    margin-bottom: 60px;
+}
+
+#varosfejlesztes{
+    float: left;
+    margin-left: 15%
+}
+
+#pbkik_logo{
+    position: relative;
+    margin-left: 17%
+}
+
+#ptecimer{
+    float:right;
+    margin-right: 15%;
+}
+
+#tudaspark, #azonosito {
+    text-align: center;
+    font-size: 17px;
+}
+
+#footer{
+    height: 180px;
+    background-color: rgb(155,155,155);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+#title_logo1{
+    
+}
+
+#logotext_bottom{
+    display: inline-block;
+}
+#wawonalogo2{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 20px;
 }
