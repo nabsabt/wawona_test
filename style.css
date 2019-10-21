@@ -207,7 +207,7 @@ main{
     border-color: rgb(255,255,255);
 }
 
-.boxed_2 {
+.boxed_2, .boxed_3 {
     width: 300px;
     margin-left: calc(50% - 150px);
     margin-right: calc(50% - 150px);  
@@ -217,7 +217,7 @@ main{
     margin-bottom: 60px;
 }
 
-.boxed_2 #mernokkft {
+.boxed_2 #mernokkft, .boxed_3 #mernokkft {
     font-size: 24px;
     font-weight: 900;
     color: rgb(0,96,164);
@@ -225,7 +225,7 @@ main{
     letter-spacing: 2px;
 }
 
-.boxed_2 #teaor_kodok, #felsorolas, #informacio {
+.boxed_2 #teaor_kodok, #felsorolas, #informacio, .boxed_3 #teaor_kodok, #felsorolas, #informacio  {
     font-weight: 800;
     
 }
@@ -302,4 +302,8 @@ ul li::before{
     margin-bottom: 0;
     padding-bottom: 0;
     margin-top: 20px;
+}
+#domain{
+    float:left;
+    
 }
