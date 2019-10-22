@@ -261,21 +261,26 @@ ul li::before{
 #partnerimgs {
     display: block;
     margin-bottom: 60px;
+    padding-left: 15%;
+    padding-right: 15%;
+
 }
 
 #varosfejlesztes{
     float: left;
-    margin-left: 15%
+ 
 }
 
 #pbkik_logo{
     position: relative;
-    margin-left: 17%
+    margin-left: 30%;
+
+
 }
 
 #ptecimer{
     float:right;
-    margin-right: 15%;
+ 
 }
 
 #tudaspark, #azonosito {
@@ -292,7 +297,8 @@ ul li::before{
 
 
 #title_logo1{
-    
+    float: left;
+    margin-top: 15px;
 }
 
 #logotext_bottom{
@@ -302,8 +308,9 @@ ul li::before{
     margin-bottom: 0;
     padding-bottom: 0;
     margin-top: 20px;
+    float: right;
 }
 #domain{
-    float:left;
-    
+   
+    color: rgb(210,210,210);
 }
